@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
+*{
+    box-sizing: border-box;
+
+   }
+   
+   body{
+     text-align:center;
+     background: rgb(255,215,215);
+background: linear-gradient(135deg, rgba(255,215,215,1) 0%, rgba(255,163,182,1) 20%, rgba(255,162,194,1) 41%, rgba(252,183,81,1) 63%, rgba(235,156,68,1) 82%, rgba(133,68,6,1) 100%);
+    /* background-color: rgba(255,0,185,1); */
+    font-family: 'Emblema One', cursive;
+   }
+
+
+   
+   /*Navbar*/
+
+   .top-menu {
+       background-color: rgb(233, 202, 156);
+       width: 99%;
+       position: fixed;
+   }
+   .hamburger {
+    display: none;
+  }
+   
+   #header-img{
+     width: 5rem;
+     height: 5rem;
+   }
+
+   header{
+       display: flex;
+       color: white;
+       text-shadow: 2px 2px #eb67af;
+       font-size: 1.5rem;
+       line-height: 1rem;
+   }
+
+   #nav-bar{
+       font-size: 2rem;
+        flex: 1;
+        
+   }
+   
+
+   ul {
+       list-style: none;
+       line-height: 1rem;
+       display: flex;
+       justify-content: flex-end;
+       
+   }
+   
+   a {
+       text-decoration: none;
+       padding: 15px;
+       font-weight: 600;
+       color: white;
+       cursor: pointer;
+   }
+
+   a:hover {
+       background-color: navy;
+       color: blanchedalmond;
+   }
+
+      /*Contact section*/
+
+      #contact {
+        display: block;
+        padding-bottom: 20rem;
+        background-image: url(pink-butter-cream-3695378.jpg);
+        background-size: cover;
+    }
+
+
+    input[type=submit] {
+        font-size: 1.5rem;
+        border: 2px solid #eb67af;
+        color: white;
+        background-color: navy;
+        border-radius: 8px;
+    }
+
+    input[type=submit]:hover {
+        background-color: white;
+        color: navy;
+    }
+
+    input[type=text] {
+        font-size: 1.5rem;
+        width: 20%;
+        border: 2px solid #eb67af;
+        border-radius: 8px;
+    }
+
+ 
+   
+   
+   /*Video/About Section*/
+
+   #about {
+   /* background-image: url(close-up-photo-of-pink-donuts-1982485.jpg);
+    background-size: contain; */
+   }
+  
+   #video{
+     float: center;
+     width: 900px;
+     height: 600px;
+     padding: 20px;
+   }
+
+   h2{
+       font-size: 2.5rem;
+       color: white;
+       text-shadow: 2px 2px navy;
+       padding-top: 5rem;
+       padding-bottom: 2rem;
+   }
+    p{
+        font-size: 2.5rem;
+        padding: 30px;
+        color: navy;
+        text-shadow: 2px 2px #eb67af;
+    }
+
+
+   
+
+   /*SHOP Section*/
+
+
+
+   .donut-img {
+       width: 70%;
+       height: auto;
+       border: 3px solid navy;
+       padding-bottom: 2rem;
+       background-color: wheat;
+   } 
+   .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+   
+
+
+
+   /* footer */
+
+   #footer {
+       background-color: #eb67af;
+   }
+
+
+
+
+
+
+   /*** Mobile sized screen ****/
+
+   @media (max-width: 600px){
+
+    body{
+        text-align:center;
+        background: rgb(255,215,215);
+   background: linear-gradient(135deg, rgba(255,215,215,1) 0%, rgba(255,163,182,1) 20%, rgba(255,162,194,1) 41%, rgba(252,183,81,1) 63%, rgba(235,156,68,1) 82%, rgba(133,68,6,1) 100%);
+       /* background-color: rgba(255,0,185,1); */
+       font-family: 'Emblema One', cursive;
+      
+      }
+
+      /*** Navbar ***/
+    .top-menu {
+        background-color: rgb(233, 202, 156);
+        width: 99%;
+ 
+        
+    }
+    
+    #header-img{
+      width: 3rem;
+      height: 3rem;
+    }
+ 
+    header{
+        display: flex;
+        color: white;
+        text-shadow: 2px 2px #eb67af;
+        font-size: 0.5rem;
+       
+    }
+
+   #nav-bar{
+    font-size: .5rem;
+     flex: 1;
+     
+}
+
+
+ul {
+    list-style: none;
+    line-height: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: navy;
+    color: blanchedalmond;
+}
+
+
+
+/***** Video/About section ****/
+
+    #video{
+        float: center;
+        width: 350px;
+        height: 200px;
+
+      }
+
+   }
